@@ -7,7 +7,7 @@ class Solution:
             result.append(word1[i])
             result.append(word2[i])
         result.append(word1[length:])
-        result.append(word2[:length])
+        result.append(word2[length:])
         return ''.join(result)
 sol=Solution()
 a=input("字符串1:")
